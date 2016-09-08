@@ -18,7 +18,6 @@ def names():
         #get count of Student / Instructer and length of the names
         for x in range(len(data)):
             full_name = data[x]["first_name"] +" "+ data[x]['last_name']
-            print (x + 1), "-", full_name, "-", (len(full_name)-1)
-
+            print (x + 1), "-", full_name, "-", (len(full_name)-1)#Pretty cool and concise way of doing this.  It's probably the third or fourth different way I've seen so far.
 
 names()
